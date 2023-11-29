@@ -1,0 +1,1327 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Amazon Ember",Arial,sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header1 {
+    width: 100%;
+    float: left;
+    background-color: black;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border: 1px solid black;
+    
+}
+
+
+
+.logo :hover {
+    border: 1px solid white;
+    
+}
+
+.logo img {
+    width: 70px;
+    color: white;
+    float: left;
+    margin-left: 20px;
+    border: 1px solid black;
+    padding: 3px;
+    
+}
+
+.logo span {
+    color: white;
+    margin-left: 5px;
+    font-size: 15px;
+    float: left;
+    border: 1px solid black;
+    padding: 3px;
+    
+}
+
+
+
+.location h6 a {
+    color: white;
+    text-decoration: none;
+    margin-left: 35px;
+    font-size: 13px;
+}
+
+.location h3 a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.location {
+    float: left;
+}
+
+.location i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.searchbar {
+    float: left;
+    position: relative;
+}
+
+select {
+    height: 42px;
+    left: 28px;
+    position: relative;
+}
+
+
+
+.searchbar input {
+    margin-left: 20px;
+    height: 45px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+input {
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.main {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.searchbar i {
+    color: black;
+    font-size: 20px;
+    background-color: rgba(255, 166, 0, 0.6);
+    width: 53px;
+    height: 44px;
+    text-align: center;
+    padding-top: 9px;
+    border-radius: 5px;
+}
+
+.images img {
+    width: 25px;
+    float: left;
+}
+
+.images {
+    float: left;
+    width: 8%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s;
+    position: relative;
+    margin-left: 10px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.images:hover{
+    border: 2px solid #f1f1f1;
+    cursor: pointer;
+}
+
+.images:hover .black{
+    display: block;
+}
+
+span.blue{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: -1px;
+    position: relative;
+}
+
+span.blue::before {
+    content: "\f0d9";
+    font-family: fontawesome;
+    position: absolute;
+    top: 2px;
+    right: -10px;
+    transform: rotate(269deg);
+    font-size: 14px;
+}
+
+.black {
+    width: 200px;
+    background-color:white;
+    box-shadow: 1px 1px 3px rgb(183, 181, 181);
+    position: absolute;
+    top: 40px;
+    left: -15px;
+    padding: 23px 17px;
+    display: none;
+}
+
+.left-radio {
+    cursor: pointer;
+    width: 100%;
+    line-height: 25px;
+}
+
+.left-radio:hover span.radio-text a{
+    color: rgb(169, 128, 78) !important;
+    text-decoration: underline;
+}
+
+
+
+span.blue{
+    margin-left: 10px;
+}
+
+span.radio-text a {
+    color:black !important;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding-left: 9px;
+    text-decoration: none;
+
+}
+
+.left-radio .radio{
+    position: relative;
+}
+
+.checkboxes {
+    width: 11px;
+    display: inline-block;
+    position: relative;
+}
+
+.checkboxes input{
+   
+    position: absolute;
+    z-index: 999;
+    width: 10px;
+    height: 10px;
+    margin: 0;
+    opacity: 0;
+}
+
+.checkboxes span::after{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #5d5d5d;
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e4ac52;
+
+}
+
+.checkboxes input[type="radio"]:checked+span:after{
+    content:"\f111";
+    color:orange;
+    font-family: fontawesome;
+    font-size: 7px;
+    text-align: center;
+    padding-top: 1px;
+}
+
+.text2 a{
+    text-align: left;
+    color: white;
+    text-decoration: none;
+
+}
+
+.text2{float: left;
+    width: 9%;
+    margin-top: 9px;
+    margin-left: 10px;
+    position: relative;
+    border: 2px solid black;
+    padding:4px;
+}
+.text2:hover{
+    border: 2px solid white;
+    
+}
+.text2 i{
+    margin-left:5px;
+}
+
+
+.text2 .droupdown {
+    background-color:white;
+    top: 40px;
+    box-shadow: 1px 1px 4px rgb(160, 157, 157);
+    width: 450px;
+    position: absolute;
+    right: -86px;
+    padding-bottom: 10px;
+    display: none;
+    
+
+}
+
+.text2:hover .droupdown{
+    display: block;
+}
+
+
+.box{
+    background-color: #e4ac52;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+
+}
+
+.droupdown h4{
+    text-align: center;
+    font-size: 10px;
+    display:inline-block;
+}
+
+ span.vr a{
+    color: blue;
+    font-size: 10px;
+ }
+.ur{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.lines{
+    border: 1px solid rgb(171, 168, 168);
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+
+.droupdown-left{
+    width: 50%;
+    float: left;
+    border-right: 1px solid  rgb(241, 237, 237);
+}
+
+.droupdown-left h2{
+color: black;
+font-size:12px;
+margin-left: 20px;
+margin-top: 5px;
+}
+
+.droupdown-left ul li{list-style: none;
+margin-top:5px;}
+
+.droupdown-left ul li a:hover{
+    color: #e4ac52;
+    text-decoration-line: underline;
+}
+
+.droupdown-left ul li a{
+    color: rgb(184, 181, 181);
+    font-size: 13px;
+    margin-left: 20px;
+}
+
+
+.textxx:hover{
+    border: 2px solid white;
+    
+    
+}
+
+
+.textxx{
+    width: 61px;
+    float: left;
+    font-size: 12px;
+    margin-top: 10px;
+    color: white;
+    border: 2px solid black;
+    padding: 4px;
+   
+}
+
+.textxx h5 a{
+    color: white;
+    text-decoration: none;
+}
+
+.textxx h3 a{
+    color: white;
+    text-decoration: none;
+}
+
+.icon{
+    width:68px;
+    float: left;
+    margin-top: 9px;
+    margin-left: 16px;
+    border: 2px solid black;
+    padding: 4px;
+}
+
+.icon:hover{
+    border: 2px solid white;
+    
+}
+
+.icon i{
+    color: white;
+    float: left;
+    font-size: 30px;
+}
+
+.icon h6{
+    color: white;
+    float: right;
+    font-size: 13px;
+    margin-top: 7px;
+}
+
+.header2{
+    width: 100%;
+    float: left;
+    background-color:#232f3e;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header2 .menu ul li{
+    display: inline-block;
+}
+
+.header2 .menu ul li a{
+   color: white;
+   text-decoration: none;
+   margin:2px;
+   border: 1px solid #232f3e ;
+   padding: 3px;
+   
+}
+
+.header2 .menu ul li a:hover{
+    border: 1px solid white ;
+}
+
+.fa-bars{
+    color:white;
+}
+
+.header3{
+    width: 100%;
+    float: left;
+    text-align: center;
+    border: 1px solid rgb(189, 188, 188);
+    padding-bottom: 10px;
+}
+
+.header3 menu ul li{
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.header3 menu ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 10px;
+    margin-top: 10px;
+}
+
+.header3 menu ul li a:hover{
+    border-bottom: 2px solid orange;
+}
+
+.droupdown3{
+    width: 100%;
+    float: left;
+    position: absolute;
+    left: 0;
+    
+    box-shadow: 1px 1px 5px rgb(152, 151, 151);
+    padding-top: 30px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+     display: none;
+     background-color: white;
+     z-index: 99999999999999999999999999999999999999999;
+      
+    
+}
+
+.header3 li:hover .droupdown3{
+    display: block;
+}
+
+.droupdown3-col h2 a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none; 
+    margin-left: 14px;  
+}
+
+.droupdown3-col{
+    width: 20%;
+    float: left;
+    padding-left: 100px;
+    text-align: left;
+}
+
+.droupdown3 .droupdown3-col ul li{
+    display: block;
+    margin-top:5px;
+    
+}
+
+.droupdown3 .droupdown3-col ul li a{
+    color: rgb(154, 152, 152);
+
+
+}
+
+.droupdown3-col-img{
+    width: 150px;
+    text-align: center;
+    
+}
+
+.droupdown3-col-img h5 a{
+    color: #100f0f;
+    
+}
+
+.droupdown3-col-img h5 {
+    margin-top: 10px;
+}
+
+
+.droupdown3-col-img h6 a{
+    color: black;
+}
+
+.droupdown3-col-img img{
+    width: 100%;
+    height: 200px;
+}
+
+.Product-details{
+    width: 100%;
+    float: left;
+}
+
+.Product-col{
+    width: 40%;
+    float: left;
+}
+
+.left-img{
+    width: 100px;
+    float: left;
+}
+
+.small-thum{
+    margin-top: 10px;
+  
+    margin-left: 30px;
+    padding:5px;
+}
+
+.small-thum img:hover{
+    box-shadow: 1px 1px 5px rgb(7, 194, 246);
+}
+
+.small-thum img{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+  
+  
+
+
+}
+
+.right-img{
+    width: 400px;
+    float: left;
+}
+
+.big-thum{
+    margin-left: 10px;
+    float: left;
+    margin-top: 100px;
+}
+
+.big-thum img{
+    width: 100%;
+}
+
+.Product-text{
+    width: 60%;
+    float: left;
+    margin-top: 80px;
+}
+
+.Product-text-left{
+    width: 60%;
+    float: left;
+}
+
+.Product-text-left h2 {
+    text-align: left;
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 32px;
+    margin-bottom: 10px;
+    font-family: "Amazon Ember",Arial,sans-serif;
+}
+
+.Product-text-left h6 a{
+    text-decoration: none;
+    color: #007185;
+    font-size: 13px;
+    
+}
+
+.Product-text-left h6 a:hover{
+    color: brown;
+    text-decoration: underline;
+}
+
+.ratings{
+    width: 500px;
+    float: left;
+    margin-top: 10px;
+    position: relative;
+}
+
+.ratings-icon{
+    float: left;
+    width: 100px;
+}
+
+.ratings-icon i{
+    color: #e4ac52;
+    margin-left: 2px;
+    
+}
+
+.ratings-icon h6 a{
+    color: black;
+    margin-top: 3px;
+    float: left;
+    
+    
+    
+}
+
+.ratings .droupdown4{
+    width: 350px;
+    background-color: white;
+    border: 1px solid rgb(213, 210, 210);
+    margin-top: 20px;
+    padding-bottom: 20px;
+    position: absolute;
+     display: none;} 
+
+    .ratings:hover .droupdown4{
+         display: block; 
+        z-index: 99999;
+    }
+    
+
+
+.droupdown4-icons{
+    float: left;
+    margin-left: 15px;
+}
+
+.droupdown4 i{
+    color:#e4ac52;
+    margin-top: 10px;
+   
+}
+
+.droupdown4 h3{
+    padding: 10px;
+    margin-left: 10px;
+}
+
+
+
+
+
+.droupdown4 h6{
+    float: left;
+    padding-top: 10px;
+}
+
+
+
+.main-box1{
+    width: 100%;
+     
+}
+
+.box1{
+    height: 25px;
+    border: 1px solid rgb(220, 216, 216);
+    border-radius: 5px;
+    width: 65%;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 9px;
+}
+
+.dor{
+    width: 10%;
+    display: inline-block;
+    margin-left: 17px;
+}
+
+.dor h6{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+@keyframes var{
+    from{width: 0%;}
+    to{width:70px;}
+
+}
+   .key.red{
+    width: 70px;
+    animation-name: var;
+    animation-duration: 2s;
+    animation-iteration-count:1;
+   
+   }
+
+
+@keyframes uar{
+    from{width: 0%;}
+    to{width:107px;}}
+
+.key{
+    width: 107px;
+    height: 100%;
+    background-color: #e4ac52;
+    border-radius: 5px;
+    animation-name: uar;
+    animation-duration: 2s;
+    animation-iteration-count:1;
+   
+
+}
+
+@keyframes car{
+    from{width: 0%;}
+    to{width:50px;}}
+
+.key.blue{
+    width:50px ;
+    animation-name: car;
+    animation-duration: 2s;
+    animation-iteration-count:1;
+   
+    
+}
+
+@keyframes sar{
+    from{width: 0%;}
+    to{width:30px;}}
+
+.key.yellow{
+    width: 30px;
+    animation-name: sar;
+    animation-duration: 2s;
+    animation-iteration-count:1;
+}
+
+@keyframes uar{
+    from{width: 0%;}
+    to{width:20px;}}
+
+.key.bla{
+    width: 20px;
+    animation-name: uar;
+    animation-duration: 2s;
+    animation-iteration-count:1;
+
+}
+    
+    
+
+
+
+
+
+
+.droupdown4 h5{
+    color: #a5a0a0;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+    
+
+.ratings-text {
+    width: 300px;
+    display: flex;}
+
+.ratings-text span a{
+    color: #007185;
+    float: left;
+    text-decoration: none;
+    margin-left: 13px;
+    margin-top: 8px;
+}
+
+.ratings-text span a:hover{
+    color: brown;
+    text-decoration: underline;
+}
+
+
+
+
+.text-left2 label{
+    padding-top: 20px;
+    
+}
+
+
+
+
+span.faa{
+    color: #007185;
+    margin-left: 10px;
+}
+
+.text-left2 h6{
+    color: #007185;
+    margin-top: 10px;
+    font-size: 13px;
+    
+}
+
+.text-left2 h5{
+    margin-top: 10px;
+}
+
+.line{
+    border: 1px solid rgb(222, 218, 218);
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.text-left2 h1{
+    font-weight: 100;
+    margin-top: 30px;
+}
+
+.text-left2 h5 a:hover{
+    color: red;
+    
+}
+
+.boxx{
+    width:35%;
+    float: left;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgb(152, 150, 150);
+    padding-bottom: 20px;
+    margin: 4px;
+}
+
+.boxx h5{
+    margin-left: 20px;
+    margin-top: 10px;
+   
+}
+
+.boxx h5 a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.boxx h5 a:hover{
+    text-decoration: underline;
+}
+.boxx p a{
+    color: #7c7979;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.boxx p{
+    margin-left: 20px;
+    margin-top:5px;
+}
+
+.boxx h6 a{
+    color: #007185;
+}
+
+.boxx h6{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.payment{
+    width: 500px;
+    float: left;
+}
+
+.payment-img{
+    width: 113px;
+    float: left;
+}
+
+.payment-img img{
+    width: 40px;
+}
+
+.payment-img h6 a{
+    color: #007185;
+}
+
+.payment h6{
+    margin-top: 10px;
+}
+
+.mobile-color {
+    width: 336px;
+    }
+
+.mobile-color p{
+    font-size:15px;
+    
+}
+
+
+
+.mobile-color-img{
+    width: 130px;
+    height: 45px;
+    border: 1px solid black;
+    float: left;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.mobile-color-img:hover{
+    border: 1px solid red;
+    box-shadow: 1px 1px 2px brown
+}
+
+.mobile-color-img img{
+    width: 30px;
+    float: left;
+    margin-right: 10px;
+    
+}
+
+.mobile-color-img h6{
+    color:brown;
+    font-size: 13px;
+    padding-left: 20px;
+
+}
+
+.mobile-text {
+    width: 311px;
+}
+
+
+
+.mobile-text p{
+    line-height: 30px;}
+
+    .list{
+        width: 300px;
+        float: left;
+    }
+
+    .list ul li{
+        margin-top:10px;
+        line-height: 20px;
+    }
+
+    .shapess {
+        clip-path: polygon(0 7%, 100% 9%, 76% 100%, 1% 100%);
+        background-color: #100f0f;
+        width: 120px;
+        height: 30px;
+       margin-top: 20px;
+        display: inline-block;
+        padding-top: 0px;
+        margin-top: 0px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .textsss{
+        width: auto;
+        
+    }
+
+     .textsss h6{
+        color:white;
+        float: left;
+       padding-left: 10px;
+    
+       
+        
+    }
+
+    .Product-text-right{
+        width:37% ;
+        float: left;
+        border: 1px solid rgb(200, 196, 196);
+        border-radius: 5px;
+        margin-left: 20px;
+        padding-bottom: 30px;
+    }
+    .taxt1{
+        background-color: #eeebeb;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        
+    }
+
+    .taxt1 h5 a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .taxt1 h5{
+        margin-left: 20px;
+       
+    }
+
+    .taxt1 h6{
+        margin-left: 20px;
+        margin-top: 6px;
+        
+    }
+
+    .taxt1 h6 a{
+        text-decoration: none;
+        color:brown;
+    }
+
+    .taxt1 i{
+        float:right;
+        font-size: 25px;
+        color: black;
+        font-weight: bolder;
+        margin-right: 20px;
+        margin-top: -20px;
+    }
+
+
+.taxt2{
+   
+    padding-top: 15px;
+    padding-bottom: 10px;
+    
+}
+
+.taxt2 h5 a{
+    text-decoration: none;
+    color: black;
+}
+
+.taxt2 h5{
+    margin-left: 20px;
+   
+}
+
+.taxt2 h6{
+    margin-left: 20px;
+    margin-top: 6px;
+    
+}
+
+.taxt2 h6 a{
+    text-decoration: none;
+    color:brown;
+    float:left;
+}
+
+.taxt2 i{
+    float:right;
+    font-size: 25px;
+    color: black;
+    font-weight: bolder;
+    margin-right: 20px;
+    margin-top: -20px;
+}
+.taxt2 h4{
+    font-size: 11px;
+    margin-left: 10px;
+    color: #7c7979;
+    
+}
+
+.taxt3 span{
+    float: left;
+    color: #007185;
+    font-size: 13px;
+    margin-left: 20px;
+}
+.taxt3 span:hover{
+    color: brown;
+    text-decoration: underline;
+}
+.taxt3 h5{
+    float: left;
+    font-size: 13px;
+    margin-left: 10px;
+    
+}
+
+.taxt3 label{
+    color: #007185;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.taxt3 label:hover{
+    color: brown;
+    text-decoration: underline;
+}
+
+.taxt4 {
+    margin-top: 10px;
+    max-width: 241px;
+    margin-left: 20px;
+    line-height: 23px;
+}
+
+.taxt4 span{
+    float: left;
+    font-weight: 100;
+    
+}
+
+.taxt4 h5{
+    float: left;
+    font-weight:bold;
+    
+}
+
+.taxt4 label{
+    float: left;
+    margin-left:5px;
+    color: green;
+    
+}
+
+
+
+
+.taxt4 h6 a:hover{
+    color: brown;
+    text-decoration: underline;
+}
+
+.taxt4 h6 a{
+    font-size: 12px;
+    color: #007185;
+    text-decoration: none;
+}
+
+.taxt4 h3 a:hover{
+    color: brown;
+    text-decoration: underline;
+}
+
+.taxt4 h3 a{
+    font-size: 12px;
+    color: #007185;
+    text-decoration: none;
+}
+
+.taxt4 h3{
+    margin-top: 30px;
+    
+}
+
+.taxt4 i{
+    color: black;
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+
+
+.taxt5 h2{
+    color: green;
+    font-size: 19px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: 100;
+}
+
+.taxt5 h5{
+    float: left;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.taxt5 h6 a{
+    color: #007185;
+    font-size: 14px;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 15px;
+    
+}
+
+.taxt5 h6 a:hover{
+    color: brown;
+    text-decoration: underline;
+}
+
+.taxt5 h6{
+    
+    margin-top:10px;
+}
+
+.taxt6{
+    margin-top: 20px;
+}
+
+.taxt6 h5{
+    margin-left: 20px;
+}
+
+.checkbox{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.checkbox span{
+    margin-left: 10px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #007185;
+    
+}
+
+.checkbox span:hover{
+    color: brown;
+    text-decoration: underline;
+    
+}
+
+.buttons{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.buttondiv a{
+    background-color: #e4ac52;
+    text-decoration: none;
+    color: #100f0f;
+    padding: 8px 80px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+.buttondiv2 a{
+    background-color:rgb(245, 136, 96);
+    text-decoration: none;
+    color: #100f0f;
+    padding: 8px 80px;
+    border-radius: 20px;
+    font-size: 13px;
+    
+}
+
+.buttondiv2{
+    margin-top: 20px;
+
+}
+
+.last-text{
+    margin-top: 30px;
+}
+
+.last-text h5{
+    margin-left: 20px;
+    color: #007185;
+}
+
+.last-text i{
+    color: #100f0f;
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.last-text .checkbox span{
+    color: #100f0f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
